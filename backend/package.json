@@ -1,12 +1,10 @@
 {
   "name": "relief-backend",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "import:houses": "node src/scripts/import-houses.js \"C:/Users/muhammedfaiz/Downloads/houses.csv\"",
-    "issue:tokens": "node src/scripts/issue-tokens.js 1"
+    "dev": "nodemon src/index.js"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
@@ -19,16 +17,10 @@
     "dotenv": "^16.6.1",
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^9.0.0",
     "pg": "^8.10.0",
     "qrcode": "^1.5.0"
   },
   "devDependencies": {
-    "@ljharb/tsconfig": "^0.3.2",
     "nodemon": "^3.1.11"
-  },
-  "description": "",
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  }
 }
