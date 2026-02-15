@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "relief",
+            "group": "local",
+            "username": "postgres",
+            "password": "postgres",
+            "database": "reliefdb"
+        }
+    ],
+    "terminal.integrated.defaultProfile.windows": "Command Prompt"
+}
